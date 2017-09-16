@@ -34,7 +34,6 @@ function get(req, res) {
  * @returns {Domain}
  */
 function create(req, res, next) {
-  console.log('bbb')
   const home = new Home({
     homeNumber: req.body.homeNumber,
     homeAddress: req.body.homeAddress
